@@ -3,14 +3,14 @@
 		<link href="taquin.css" type="text/css" rel="stylesheet"/>
 		<script src="taquin.js"></script>
 		<script type='text/javascript'>
-			/*function load(){
-			game.level = "easy";
+			function load(){
+			game.level = "medium";
 			game.init();
-			}*/
+			}
 		</script>
 	</head>
 	
-	<body>
+	<body onload="load()">
 		<div id="window">
 			<h1>Taquin</h1>
 			
@@ -19,7 +19,7 @@
 				<p>Choose difficulty:</p>
 				<div id="chooseDifficulty">
 					<div id="easy" class="button"><div class="op"></div>EASY</div>
-					<div id="medium" class="button"><div class="op"></div>MEDIUM</div>
+					<div id="medium" class="button"><div class="op" style></div>MEDIUM</div>
 					<div id="hard" class="button"><div class="op"></div>HARD</div>
 				</div>
 				<div id="start" class="button">Start</div>

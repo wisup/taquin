@@ -68,6 +68,11 @@ body
 	opacity: 0.6;
 }
 
+.opSelected
+{
+	opacity: 0;
+}
+
 #chooseDifficulty
 {
 	width: 100%;
@@ -92,23 +97,26 @@ body
 {
 	display: inline-block;
 	width: 100px;
-	background-color: red;
 	text-align: center;
-	padding-left: 2px;
-	padding-right: 2px;
 	cursor: pointer;
 }
 
 .ligne
 {
 	line-height: 100px;
-	background-color: blue;
-	margin-top: 2px;
-	margin-bottom: 4px;
+	background-color: white;
+}
+
+#table
+{
+	background-color: brown;
+	padding: 10px;
+	width: 50%;
 }
 
 #game
 {
 	display: none;
 	text-align: center;
+	margin: auto;
 }
